@@ -1,4 +1,5 @@
 import streamlit as st
+import send_email
 
 st.header("Contact Me")
 
@@ -8,3 +9,4 @@ with st.form(key='user_emails'):
     submit_msg = st.form_submit_button(label='Send')
 
     if submit_msg:
+        send_email.send_email(user_email, user_message)
