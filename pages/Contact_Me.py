@@ -10,3 +10,4 @@ with st.form(key='user_emails'):
 
     if submit_msg:
         send_email.send_email(user_email, user_message)
+        st.info("Your email was sent successfuly")
