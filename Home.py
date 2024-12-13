@@ -17,18 +17,18 @@ with col2:
 st.write("Below you can find some of the apps I have built in Python. Feel free to contact me!")
 
 col3, empty_col, col4 = st.columns([1.5, 0.5, 1.5])
-data_frame = pandas.read_csv('data.csv', sep=';')
+data_frame = pandas.read_csv('data.csv', sep=";", on_bad_lines='skip')
 
 with col3:
-    for index, row in data_frame[:10].iterrows():
+    for index, row in data_frame[:8].iterrows():
         st.header(row['title'])
-        st.image(f'images/{row["image"]}')
+        st.image(f'images/{row["image"]}', width=300)
         st.write(row['description'])
         st.write(f'[Source Code]({row["url"]})')
 
 with col4:
-    for index, row in data_frame[10:].iterrows():
+    for index, row in data_frame[8:].iterrows():
         st.header(row['title'])
-        st.image(f'images/{row["image"]}')
+        st.image(f'images/{row["image"]}', width=300)
         st.write(row['description'])
         st.write(f'[Source Code]({row["url"]})')
