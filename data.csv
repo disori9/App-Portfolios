@@ -1,21 +1,16 @@
 title;description;url;image
-Todo App;A distraction-free web app to help you focus on creating and completing tasks.;https://pythonhow.com;1.png
-Portfolio Website;A website built entirely in Python to showcase coding projects and apps.;https://pythonhow.com;2.png
-PDF Templates;A script that generates PDF templates of multiple pages given some predefined guidelines.;https://pythonhow.com;3.png
-PDF Invoices;A script that reads invoice records from Excel files and automatically generates PDF invoices.;https://pythonhow.com;4.png
-Positive News Site;A website that gets data from a news API and uses sentiment analysis to publish only positive news.;https://pythonhow.com;5.png
-Weather API;A REST API built with Python and Flask to serve historical weather data for various cities.;https://pythonhow.com;6.png
-Download Cleaner;A script that monitors the Downloads folder and deletes old files keeping the folder clean.;https://pythonhow.com;7.png
-Tour Scraper;A program that checks a music band's website and sends an email when there are new tours.;https://pythonhow.com;8.png
-Helper Chatbot;A chatbot that knows about a specific topic and answers questions regarding that topic.;https://pythonhow.com;9.png
-Open Domain Chatbot;A chatbot built that can discuss anything with a human and is built using the Facebook API.;https://pythonhow.com;10.png
-Webcam Motion Detector;A program that monitors the computer webcam and sends an email when a new object enters the view.;https://pythonhow.com;11.png
-Typing Analyzer;A program that monitors the computer keyboard and returns the most typed words of the session.;https://pythonhow.com;12.png
-Internet Speed Analysis;A program that records the internet speed every few seconds and plots the values on the browser.;https://pythonhow.com;13.png
-Monitoring Data;A program that monitors a particular website and periodically records the data to a remote server.;https://pythonhow.com;14.png
-Visualizing Data;A program that visualizes the data collected in the previous monitoring program. ;https://pythonhow.com;15.png
-Visualizing Weather Forecast;A data web app that visualizes the weather forecast for the next five days of any city.;https://pythonhow.com;16.png
-Student Management System;A desktop PyQt6 GUI app for managing university student data with an SQL database backend.;https://pythonhow.com;17.png
-School Management System;A desktop PyQt6 GUI app for managing complex university data with an SQL database backend.;https://pythonhow.com;18.png
-Restaurant Menu Web App;A Django web app to let customers see a restaurant menu and meal availability.;https://pythonhow.com;19.png
-Online Store;A Django online store app where users can place orders and sellers can manage them.;https://pythonhow.com;20.png
+Movie Recommendation System;A movie recommendation system that includes collaborative, content, and popularity based filtering based on the dataset given.;https://github.com/disori9/Movie-Recommendation-System;movie.jpg
+Visualizing Weather Forecast;A data web app that visualizes the weather forecast for the next five days of any city.;https://github.com/disori9/Ori-Weather-Forecast-App;16.png
+Job Form w Flask;A job form wherein when the user submits a job form through the web application, it inputs their data into a SQLite DB and then sends an email to the user.;https://github.com/disori9/Job-Form-with-Flask;job_f.png
+Book Analysis;A jupyter project that analyzes a book and extracts the different information to be made with the chapters.;https://github.com/disori9/Jupyter-Book-Analysis;book.png
+Weather API;A REST API built with Python and Flask to serve historical weather data for various cities.;https://github.com/disori9/Weather-Station-API;6.png
+Anime News Email;A program that gets data from a news API and emails news about the latest anime information.;https://github.com/disori9/Anime-News-API-Email;5.png
+Word Definition API;REST API that returns the word's definitions.;ttps://github.com/disori9/Word-Definition-API;word.png
+Astronomy Picture of the Day;A website containing the astronomy picture of the day from NASA /w description.;https://github.com/disori9/Astronomy-Picture-Of-The-Day;apotd.jpg
+Student Management System;A desktop PyQt6 GUI app for managing university student data with an SQL database backend.;https://github.com/disori9/Student-Management-System;17.png
+PDF Invoices;A script that reads invoice records from Excel files and automatically generates PDF invoices.;https://github.com/disori9/ExcelInvoices-PDFInvoices;4.png
+Tour Scraper;A program that checks a music band's website and sends an email when there are new tours.;https://github.com/disori9/Web-Scraping-Sample;8.png
+Hotel Booking App /w OOP;A hotel booking program that implements OOP;https://github.com/disori9/Hotel-Booking-OOP;hotel.png
+Job Form w Django;A job form wherein when the user submits a job form through the web application, it inputs their data into a SQLite DB and then sends an email to the user.;https://github.com/disori9/Job-Form-Django;job_f2.jpg
+Todo GUI w PySimpleGUI;A todo GUI app, my very first app. A simple app wherein you can delete, edit, insert, and complete your todos. You can also show the todos, and the previously completed todos.;https://github.com/disori9/Todo-App/;todo2.jpg
+Todo Web App;A distraction-free web app to help you focus on creating and completing tasks.;https://github.com/disori9/Todos-WebApp;1.png
